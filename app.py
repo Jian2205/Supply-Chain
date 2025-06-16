@@ -1,4 +1,4 @@
-streamlit_code = """
+
 
 import streamlit as st
 import pandas as pd
@@ -60,6 +60,3 @@ st.image("r2_comparison_plot.png", caption="R² Score Comparison: Before vs. Aft
 st.markdown("---")
 st.markdown("🔧 Built by Jianlumei Kamei | Powered by Streamlit")
 
-"""
-with open("app.py", "w", encoding="utf-8") as f:
-    f.write(streamlit_code)
